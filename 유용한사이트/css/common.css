@@ -1,0 +1,46 @@
+p{
+    font-size : 25px;
+    font-style : 맑은고딕;
+    font-weight: 500;
+}
+
+.content_wrapper{
+    display : flex;
+    justify-content: center;
+}
+
+.content_box{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_content{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 500px;
+    height : 100px;
+    background-color : rgb(60, 231, 223);
+    
+    border-radius : 5px;
+    margin : 15px;
+}
+
+.card_content a:link, .card_content a:visited{
+    flex : 1;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration : none;
+    color : #000000;
+}
+
+.card_content a:hover, .card_content a:active{
+    background-color : rgb(146, 236, 232);
+    border-radius : 5px;
+}
+
+.card_content a p {
+    text-align: center;
+}
