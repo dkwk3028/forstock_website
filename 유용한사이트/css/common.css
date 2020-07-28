@@ -19,8 +19,8 @@ p{
     display : flex;
     flex-direction: column;
     justify-content: center;
-    width : 500px;
-    height : 100px;
+    width : 100%;
+    height : 10%;
     background-color : rgb(60, 231, 223);
     
     border-radius : 5px;
